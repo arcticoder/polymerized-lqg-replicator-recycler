@@ -35,6 +35,9 @@
 		{
 			"name": "lqg-anec-framework",
 			"path": "../lqg-anec-framework"
+		},
+		{
+			"path": "../energy"
 		}
 	],
 	"settings": {
