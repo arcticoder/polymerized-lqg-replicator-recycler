@@ -102,7 +102,7 @@ graph TD
 The fundamental principle underlying the replicator technology is the modification of matter-energy coupling through discrete quantum geometry.
 
 #### Polymerization Factor
-```latex
+```math
 f_{polymer} = \frac{\sin(\pi \mu)}{\pi \mu} \text{ where } \mu = 0.15 \pm 0.05
 ```
 
