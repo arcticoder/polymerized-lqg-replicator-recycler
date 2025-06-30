@@ -12,7 +12,7 @@ This repository implements **10 categories of advanced mathematical improvements
 **Implementation:** `einstein_backreaction_solver.py`
 
 **Mathematical Enhancement:**
-```latex
+```math
 G_{\mu\nu} = 8\pi T_{\mu\nu}^{\text{total}} = 8\pi(T_{\mu\nu}^{\text{matter}} + T_{\mu\nu}^{\text{polymer}} + T_{\mu\nu}^{\text{replicator}})
 ```
 
@@ -28,7 +28,7 @@ G_{\mu\nu} = 8\pi T_{\mu\nu}^{\text{total}} = 8\pi(T_{\mu\nu}^{\text{matter}} + 
 **Implementation:** `advanced_polymer_qft.py`
 
 **Mathematical Enhancement:**
-```latex
+```math
 T_{\text{polymer}} = \frac{\sin^2(\mu\pi)}{2\mu^2}, \quad \text{with } \mu\pi \in \left(\frac{\pi}{2}, \frac{3\pi}{2}\right)
 ```
 
@@ -43,7 +43,7 @@ T_{\text{polymer}} = \frac{\sin^2(\mu\pi)}{2\mu^2}, \quad \text{with } \mu\pi \i
 ### **3. Unified Gauge Field Polymerization**
 
 **Mathematical Framework:**
-```latex
+```math
 \begin{cases}
 \text{U(1)}: & A_\mu \rightarrow \frac{\sin(\mu D_\mu)}{\mu} \\
 \text{SU(2)}: & W_\mu^a \rightarrow \frac{\sin(\mu D_\mu^a)}{\mu} \\
@@ -62,12 +62,12 @@ T_{\text{polymer}} = \frac{\sin^2(\mu\pi)}{2\mu^2}, \quad \text{with } \mu\pi \i
 **Implementation:** `adaptive_mesh_refinement.py`
 
 **Mathematical Framework:**
-```latex
+```math
 \Delta x_{i,j,k} = \Delta x_0 \cdot 2^{-L(|\nabla\phi|_{i,j,k}, |R|_{i,j,k})}
 ```
 
 **Refinement Criteria:**
-```latex
+```math
 L(\nabla\phi, R) = \max\left[\log_2\left(\frac{|\nabla\phi|}{\epsilon_\phi}\right), \log_2\left(\frac{|R|}{R_{\text{crit}}}\right)\right]
 ```
 
@@ -82,7 +82,7 @@ L(\nabla\phi, R) = \max\left[\log_2\left(\frac{|\nabla\phi|}{\epsilon_\phi}\righ
 ### **5. Ford-Roman Enhanced Quantum Inequalities**
 
 **Enhanced Bound:**
-```latex
+```math
 \int_{-\infty}^{\infty} \rho_{\text{eff}}(t) f(t) dt \geq -\frac{\hbar\,\text{sinc}(\pi\mu)}{12\pi\tau^2}
 ```
 
@@ -96,7 +96,7 @@ L(\nabla\phi, R) = \max\left[\log_2\left(\frac{|\nabla\phi|}{\epsilon_\phi}\righ
 ### **6. Matter-Geometry Coupling Enhancement**
 
 **Discrete Evolution:**
-```latex
+```math
 \frac{d\pi_{\mathbf{n}}}{dt} = -\sqrt{q_{\mathbf{n}}} \frac{\partial V}{\partial \phi_{\mathbf{n}}} + \frac{1}{\mu_i^2}\sum_i (\phi_{\mathbf{n}+\mathbf{e}_i} + \phi_{\mathbf{n}-\mathbf{e}_i} - 2\phi_{\mathbf{n}})
 ```
 
@@ -110,7 +110,7 @@ L(\nabla\phi, R) = \max\left[\log_2\left(\frac{|\nabla\phi|}{\epsilon_\phi}\righ
 ### **7. Stress-Energy Tensor Framework Enhancement**
 
 **Polymer Stress-Energy:**
-```latex
+```math
 T_{00}^{\text{poly}} = \frac{1}{2}\left[\frac{\sin^2(\mu\pi)}{\mu^2} + (\nabla\phi)^2 + m^2\phi^2\right]
 ```
 
@@ -124,7 +124,7 @@ T_{00}^{\text{poly}} = \frac{1}{2}\left[\frac{\sin^2(\mu\pi)}{\mu^2} + (\nabla\p
 ### **8. Symplectic Evolution with Backreaction**
 
 **Evolution System:**
-```latex
+```math
 \begin{align}
 \frac{\partial\phi}{\partial t} &= \pi \\
 \frac{\partial\pi}{\partial t} &= \nabla^2\phi - V_{\text{eff}} - \beta_{\text{backreaction}} \cdot T_{\mu\nu} \\
@@ -142,7 +142,7 @@ T_{00}^{\text{poly}} = \frac{1}{2}\left[\frac{\sin^2(\mu\pi)}{\mu^2} + (\nabla\p
 ### **9. Experimental Parameter Mapping**
 
 **Scaling Relations:**
-```latex
+```math
 \lambda_{\text{lab}} = \lambda_{\text{sim}} \cdot \sqrt{\frac{E_{\text{lab}}}{E_{\text{Planck}}}} \cdot \frac{\rho_{\text{exotic}}}{\rho_{\text{vacuum}}}
 ```
 

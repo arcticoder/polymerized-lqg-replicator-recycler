@@ -112,7 +112,7 @@ f_{polymer} = \frac{\sin(\pi \mu)}{\pi \mu} \text{ where } \mu = 0.15 \pm 0.05
 - **Conservative Bound**: Lower than theoretical maximum for stability
 
 #### Backreaction Effects
-```latex
+```math
 \beta_{backreaction} = 0.5144 \text{ (physics-based conservative value)}
 ```
 
@@ -124,7 +124,7 @@ f_{polymer} = \frac{\sin(\pi \mu)}{\pi \mu} \text{ where } \mu = 0.15 \pm 0.05
 ### Energy Enhancement Mechanism
 
 #### Total Enhancement Factor
-```latex
+```math
 \eta_{total} = R_{polymer} \times \beta_{backreaction} \times \eta_{system} \times \eta_{coupling} \times f_{safety}
 ```
 
@@ -140,7 +140,7 @@ f_{polymer} = \frac{\sin(\pi \mu)}{\pi \mu} \text{ where } \mu = 0.15 \pm 0.05
 ### Matter-Energy Conversion
 
 #### Dematerialization Process
-```latex
+```math
 E_{demat} = \frac{mc^2}{\eta_{total}} \times \frac{1}{2}
 ```
 
@@ -150,7 +150,7 @@ E_{demat} = \frac{mc^2}{\eta_{total}} \times \frac{1}{2}
 - Dematerialization energy: `1.05 GJ`
 
 #### Rematerialization Process
-```latex
+```math
 E_{remat} = E_{demat} \times f_{fidelity}
 ```
 

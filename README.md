@@ -48,7 +48,7 @@ This project represents the **first UQ-validated replicator/recycler system** us
 ## Mathematical Foundation
 
 ### 1. **Total Energy Enhancement (UQ-Corrected)**
-```latex
+```math
 E_{enhanced} = E_{conventional} / η_{total}
 where η_{total} = R_{polymer} × β_{backreaction} × η_{system} × η_{coupling} × f_{safety}
 ```
@@ -56,26 +56,26 @@ where η_{total} = R_{polymer} × β_{backreaction} × η_{system} × η_{coupli
 **Result:** `484× enhancement factor` (realistic and achievable)
 
 ### 2. **Energy Balance Equation (Stability-Focused)**
-```latex
+```math
 E_{target} = E_{fusion available} / balance_{ratio}
 where balance_{ratio} = 1.1 (stable operation)
 ```
 **Ensures:** Replication energy requirements match available fusion power
 
 ### 3. **Polymer Enhancement Factor (Conservative)**
-```latex
+```math
 f_{polymer} = sinc(π × μ) where μ = 0.15 (consensus parameter)
 Result: f_{polymer} ≈ 0.95 (5% enhancement)
 ```
 
 ### 4. **Backreaction Factor (Physics-Based)**
-```latex
+```math
 β_{backreaction} = 0.5144 (conservative physics-based value)
 ```
 **Note:** Reduced from exact mathematical result (1.944) to practical achievable value
 
 ### 5. **LQG Shell Geometry (Realistic)**
-```latex
+```math
 f(r) = { 1,                           r ≤ R_{inner}
        { 0.5[1 - sin(π(r-R)/Δ)],     R_{inner} < r < R_{outer}  
        { 0,                           r ≥ R_{outer}
