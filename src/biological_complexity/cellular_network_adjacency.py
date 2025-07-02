@@ -243,10 +243,13 @@ class TranscendentCellularNetwork:
         if enable_progress:
             self.logger.info(f"   Creating {num_nodes:,} cellular nodes...")
         
+        # Show immediate progress feedback
+        progress_interval = max(1, num_nodes // 5)  # Show progress every 20%
+        
         for i in range(num_nodes):
-            if enable_progress and i % max(1, num_nodes // 20) == 0:
+            if enable_progress and (i % progress_interval == 0 or i < 10):
                 progress = (i / num_nodes) * 100
-                self.logger.info(f"   Node creation progress: {progress:.1f}% ({i:,}/{num_nodes:,})")
+                print(f"   🔄 Node creation: {progress:.0f}% ({i:,}/{num_nodes:,})", flush=True)
             
             cellular_type = self._determine_cellular_type(i, num_nodes)
             node = CellularNode(
@@ -260,8 +263,8 @@ class TranscendentCellularNetwork:
             self.nodes[i] = node
         
         if enable_progress:
-            self.logger.info(f"   ✅ All {num_nodes:,} nodes created")
-            self.logger.info(f"   Generating topology pattern: {connectivity_pattern}")
+            print(f"   ✅ All {num_nodes:,} nodes created", flush=True)
+            print(f"   🔗 Generating topology pattern: {connectivity_pattern}", flush=True)
         
         # Generate topology based on pattern
         topology_edges = self._generate_topology_pattern(connectivity_pattern, num_nodes, enable_progress)
@@ -291,10 +294,13 @@ class TranscendentCellularNetwork:
         # Create antisymmetric adjacency matrix
         adjacency_dict = {}
         
+        # Show immediate progress with print statements
+        edge_progress_interval = max(1, len(topology_edges) // 5)
+        
         for idx, edge in enumerate(topology_edges):
-            if enable_progress and idx % max(1, len(topology_edges) // 10) == 0:
+            if enable_progress and (idx % edge_progress_interval == 0 or idx < 5):
                 progress = (idx / len(topology_edges)) * 100
-                self.logger.info(f"   Adjacency progress: {progress:.1f}% ({idx:,}/{len(topology_edges):,} edges)")
+                print(f"   🔄 Processing edges: {progress:.0f}% ({idx:,}/{len(topology_edges):,})", flush=True)
             
             i, j = edge
             if i != j:  # No self-loops for antisymmetric matrix
@@ -317,10 +323,10 @@ class TranscendentCellularNetwork:
         self.antisymmetric_adjacency = adjacency_dict
         
         if enable_progress:
-            self.logger.info(f"   ✅ Antisymmetric adjacency matrix complete")
-            self.logger.info(f"   Matrix entries: {len(adjacency_dict):,}")
+            print(f"   ✅ Antisymmetric adjacency matrix complete", flush=True)
+            print(f"   📊 Matrix entries: {len(adjacency_dict):,}", flush=True)
             sparsity = 1.0 - len(adjacency_dict) / (num_nodes * num_nodes)
-            self.logger.info(f"   Sparsity: {sparsity:.4f}")
+            print(f"   📊 Sparsity: {sparsity:.4f}", flush=True)
         
         return {
             'adjacency_matrix': adjacency_dict,
@@ -626,10 +632,10 @@ def demonstrate_transcendent_cellular_network():
     
     # Create test network specification (smaller for faster demo)
     network_spec = {
-        'num_nodes': 5000,  # Reduced for faster demo
+        'num_nodes': 500,  # Further reduced for immediate demo
         'pattern': 'transcendent',
         'cellular_types': ['neural', 'immune', 'vascular', 'metabolic'],
-        'connectivity_density': 0.005  # Reduced density for faster computation
+        'connectivity_density': 0.01  # Slightly higher density for better demo
     }
     
     print(f"\n🧪 Test Network Specification:")
