@@ -9,7 +9,12 @@
 			"path": "../artificial-gravity-field-generator"
 		},
 		{
+			"name": "energy",
 			"path": "../energy"
+		},
+		{
+			"name": "enhanced-simulation-hardware-abstraction-framework",
+			"path": "../enhanced-simulation-hardware-abstraction-framework"
 		},
 		{
 			"name": "lqg-anec-framework",
