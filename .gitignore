@@ -139,3 +139,5 @@ tmp/
 
 .env
 .github/instructions/copilot-instructions.md
+
+.github/
