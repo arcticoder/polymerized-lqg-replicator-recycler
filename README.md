@@ -21,7 +21,7 @@ The project reports conservation-quality estimates near Q ≈ 1.000 under the as
 This project contains a set of implemented UQ checks and validation routines that support the internal claims below. However, readers should note:
 
 - These results are based on internal modelling assumptions, parameter selections, and numerical experiments. They are not a substitute for independent replication or peer review.
-- Reported numeric values (e.g., enhancement factors, coefficients) are estimates from the project's models and may change with alternative modelling choices or additional data. Where exact numbers are shown in the repository, they are best treated as illustrative model outputs; uncertainty quantification artifacts are provided in `docs/`.
+- Reported numeric values (e.g., enhancement factors, coefficients) are estimates from the project's models and may change with alternative modelling choices or additional data. Where approximate numbers are shown in the repository, they are best treated as illustrative model outputs; uncertainty quantification artifacts are provided in `docs/`.
 - Any suggestion of operational readiness (e.g., for engineering deployment) is premature without independent experimental validation and safety review.
 
 ### Worked Example: workflow for independent verification
@@ -34,7 +34,7 @@ This project contains a set of implemented UQ checks and validation routines tha
 
 - **6.3× enhancement (model estimate)**: reported under the project's specific polymer-correction model; uncertainty ranges and sensitivity analyses are in `docs/`.
 
-**Note on parameters and coefficients**: where the README previously stated an exact coefficient or parameter, those values are reported model estimates and should be accompanied by the corresponding derivation and uncertainty bounds in the repository documentation.
+**Note on parameters and coefficients**: where the README previously stated an approximate coefficient or parameter, those values are reported model estimates and should be accompanied by the corresponding derivation and uncertainty bounds in the repository documentation.
 
 **Backreaction coefficient (model estimate)**: β ≈ 1.94 (reported estimate; derivation and uncertainty bounds are provided in `docs/technical-documentation.md`).
 
@@ -52,7 +52,7 @@ This project contains a set of implemented UQ checks and validation routines tha
 
 ## UQ Prerequisites for Cosmological Constant Investigation (status)
 
-The project implements a set of UQ prerequisites to support first-principles investigations. Maintainers report completion of internal checklists for the implemented modules; however, independent verification and community review remain important next steps before asserting readiness for definitive cosmological-constant derivations.
+The project implements a set of UQ prerequisites to support first-principles investigations. Maintainers report completion of internal checklists for the implemented modules; however, independent verification and community review remain important next steps before asserting readiness for preliminary cosmological-constant derivations.
 
 **Status**: Prepared to begin first-principles investigations; results will require independent replication and peer review before being considered established.
 
@@ -71,14 +71,14 @@ The project implements a set of UQ prerequisites to support first-principles inv
 
 **🔬 ULTIMATE Lambda Leveraging Matter Replication with Perfect Conservation Quality**
 
-Revolutionary matter replication and recycling technology combining Loop Quantum Gravity (LQG) polymerization effects with polymer-fusion enhancement and the **ULTIMATE Cosmological Constant Λ Leveraging Framework**. Achieves **perfect conservation quality Q = 1.000** with unprecedented **1.45×10²² enhancement factor** through Riemann zeta function acceleration and enhanced golden ratio convergence. **Complete UQ remediation achieved with 100% physics compliance** and comprehensive professional documentation suite totaling **11,500+ lines**. **✅ ALL CRITICAL UQ PREREQUISITES COMPLETED WITH ULTIMATE LAMBDA LEVERAGING**.
+proposed matter replication and recycling technology combining Loop Quantum Gravity (LQG) polymerization effects with polymer-fusion enhancement and the **ULTIMATE Cosmological Constant Λ Leveraging Framework**. Achieves **perfect conservation quality Q = 1.000** with noted in these example runs **1.45×10²² enhancement factor** through Riemann zeta function acceleration and enhanced golden ratio convergence. **Complete UQ remediation achieved with 100% physics compliance** and comprehensive professional documentation suite totaling **11,500+ lines**. **✅ ALL CRITICAL UQ PREREQUISITES COMPLETED WITH ULTIMATE LAMBDA LEVERAGING**.
 
 ## 🚀 ULTIMATE Lambda Leveraging Achievement
 
 ### **Perfect Conservation Quality: Q = 1.000**
 The polymerized-LQG replicator/recycler now incorporates the **ULTIMATE Cosmological Constant Λ Leveraging Framework** achieving:
 
-- **Perfect Conservation Quality**: Q = 1.000 (exact theoretical maximum)
+- **Perfect Conservation Quality**: Q = 1.000 (approximate theoretical maximum)
 - **Total Enhancement Factor**: 1.45×10²² exceeding previous 10²² bounds  
 - **Riemann Zeta Function Acceleration**: ζ(s) convergence with Euler product optimization
 - **Enhanced Golden Ratio Convergence**: φⁿ series extension to infinite terms
@@ -125,10 +125,10 @@ rho_enhanced = rho_base * (1 + 6.3 * polymer_correction_factor) * \
 - **Enhancement Factor**: 10⁷⁷× theoretical → **484× realistic enhancement** through systematic physics validation and conservative parameter correction
 - **Energy Balance**: 58,760× unstable → **1.1× stable ratio** ensuring practical operation and sustainable power requirements
 - **Convergence Parameter**: Inconsistent values → **μ = 0.15 consensus factor** validated across all integrated repositories
-- **Backreaction Coupling**: Unspecified → **β = 1.9443254780147017 exact coefficient** providing 48.55% energy optimization
+- **Backreaction Coupling**: Unspecified → **β = 1.9443254780147017 approximate coefficient** providing 48.55% energy optimization
 - **Documentation Status**: Incomplete → **Complete professional documentation suite** with technical reference, API documentation, safety protocols, and integration guides
 
-### Revolutionary Capabilities with Complete UQ Prerequisites
+### proposed Capabilities with Complete UQ Prerequisites
 - **484× Energy Enhancement Factor** - Achievable through validated polymer and backreaction effects with comprehensive mathematical documentation
 - **1.1× Stable Energy Balance** - Sustainable operation within fusion power capabilities with detailed energy analysis
 - **99.9% Pattern Fidelity** - Quantum error correction with information-theoretic guarantees and comprehensive safety protocols
@@ -241,11 +241,11 @@ where balance_{ratio} = 1.1 (optimized from initial 0.1× through backreaction c
 f_{polymer} = sinc(π × μ) ≈ 0.95 (5% enhancement through geometric discretization)
 ```
 
-#### 4. **Backreaction Factor (Exact Mathematical Coefficient)**
+#### 4. **Backreaction Factor (approximate Mathematical Coefficient)**
 ```math
-β_{backreaction} = 1.9443254780147017 (exact coefficient providing 48.55% energy optimization)
+β_{backreaction} = 1.9443254780147017 (approximate coefficient providing 48.55% energy optimization)
 ```
-**Note:** Provides exact energy optimization through temporal enhancement and causality preservation
+**Note:** Provides approximate energy optimization through temporal enhancement and causality preservation
 
 #### 5. **Enhanced LQG Shell Geometry (Medical-Grade Safety)**
 ```math
@@ -387,7 +387,7 @@ This project represents the **first comprehensive UQ remediation** of a matter r
 4. **Backreaction Coupling Optimization (RESOLVED)**
    - **Original**: Unspecified backreaction effects leading to energy inefficiency
    - **UQ Analysis**: Identified missing energy optimization opportunities
-   - **Complete Resolution**: **β = 1.9443254780147017 exact coefficient** providing 48.55% energy optimization and temporal enhancement
+   - **Complete Resolution**: **β = 1.9443254780147017 approximate coefficient** providing 48.55% energy optimization and temporal enhancement
 
 #### Complete Validation Results
 ```python
@@ -504,7 +504,7 @@ polymerized-lqg-replicator-recycler/
 
 ## Enhanced License and Usage
 
-**Unlicense (Public Domain)** - This revolutionary matter replication technology is released into the public domain with no restrictions, enabling unrestricted usage, modification, and distribution. See [LICENSE](LICENSE) for complete details.
+**Unlicense (Public Domain)** - This proposed matter replication technology is released into the public domain with no restrictions, enabling unrestricted usage, modification, and distribution. See [LICENSE](LICENSE) for complete details.
 
 ## Enhanced Contributing
 
@@ -563,14 +563,14 @@ it.\*
 
 ### 🎯 UQ Prerequisites Complete - Cosmological Constant Prediction Ready
 
-The Enhanced Polymerized-LQG Replicator/Recycler represents a **revolutionary breakthrough** in matter-energy manipulation technology achieving:
+The Enhanced Polymerized-LQG Replicator/Recycler represents a **proposed reported improvement (see methods and evidence)** in matter-energy manipulation technology achieving:
 
 - **Complete UQ Prerequisites**: All 4 critical priorities implemented and validated for cosmological constant prediction work
 - **Mathematical Framework Coherence**: Perfect consistency across all modules with unified polymer parameter μ = 0.15  
 - **Cross-Scale Physics Validation**: Verified from Planck scale to cosmological scales (30+ orders of magnitude)
 - **First-Principles Readiness**: Prepared for vacuum energy density calculations and precision warp-drive engineering
 - **Professional Documentation**: 11,500+ lines of comprehensive technical documentation with UQ prerequisites validation
-- **Public Domain Release**: Unlicense enabling unrestricted usage and modification for revolutionary technology advancement
+- **Public Domain Release**: Unlicense enabling unrestricted usage and modification for proposed technology advancement
 
 **Status**: ✅ **READY FOR COSMOLOGICAL CONSTANT PREDICTION**
 
